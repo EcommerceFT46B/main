@@ -1,0 +1,39 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: "Titillium Web", sans-serif;
+}
+
+.category-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #204E4C;
+  height: 8vh;
+  color: white;
+}
+
+.category-header label {
+  /* margin-right: 1rem; */
+  margin: 20px;
+}
+
+.category-header select {
+  padding: 0.5rem;
+  border-radius: 4px;
+  border: none;
+}
+
+.search {
+  max-width: 22px;
+  float: left;
+  margin: .3em;
+}
+
+.inputSearch {
+  width: 150px;
+  margin: 1.25% 0.2%;
+  padding: 5px;
+  float: left;
+}

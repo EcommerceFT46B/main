@@ -1,0 +1,150 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.productCard__cart {
+  font-size: 40px;
+  color: orangered;
+}
+
+.carrito {
+  color: #D76A29;
+  font-size: 24px;
+  gap: 1rem;
+}
+
+.title {
+  font-size: 30px;
+  font-weight: 800;
+  margin-bottom: 18px;
+  color: #333;
+}
+
+.image {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.price {
+  font-size: 28px;
+  color: orangered;
+}
+
+.productType {
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 500;
+  color: #888;
+  font-size: 24px;
+}
+
+.descripcion {
+  margin-top: 12px;
+  font-size: 24px;
+  color: #222;
+}
+
+.especificaciones {
+  margin-top: 12px;
+  font-size: 15px;
+  color: black;
+}
+
+.nroserie {
+  font-size: 15px;
+  font-weight: 200;
+  color: #222;
+}
+
+.nromac {
+  font-size: 15px;
+  font-weight: 200;
+  color: #222;
+}
+
+.stock {
+  font-size: 12px;
+  font-weight: 200;
+  color: #222;
+}
+
+.minimo {
+  font-size: 12px;
+  font-weight: 200;
+  color: #222;
+}
+
+.preferencia {
+  font-size: 24px;
+  font-weight: 200;
+  color: orangered;
+}
+
+.estado {
+  color: transparent;
+}
+
+.categoria {
+  font-size: 21px;
+  font-weight: 200;
+  color: #111;
+}
+
+.marca {
+  font-size: 24px;
+  font-weight: 500;
+  color: #111;
+}
+
+.fabricante {
+  font-size: 24px;
+  font-weight: 500;
+  color: orangered;
+}
+
+.totalSales {
+  font-size: 16px;
+  color: #666;
+  margin-top: 10px;
+}
+
+.timeLeft {
+  font-size: 16px;
+  color: #666;
+  margin-top: 10px;
+}
+
+.rating {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.textRating {
+  font-weight: bold;
+  color: #555;
+}
+
+.stars {
+  display: flex;
+  align-items: center;
+}
+
+.stars {
+  color: #ffdf2a;
+  margin-right: 5px;
+  font-size: 30px;
+  gap: 1rem;
+}

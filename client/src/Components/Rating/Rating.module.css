@@ -1,0 +1,16 @@
+.rating-Conteiner {
+    height: 100px;
+    background-color:#ffffff25;         
+}
+  
+.rating-text {
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  color: black;
+}
+
+#h4 {
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  color: black;
+}

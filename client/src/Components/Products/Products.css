@@ -1,0 +1,131 @@
+:root {
+  --color-grey-primary: #f0f0f0;
+  --color-yellow-primary: goldenrod;   
+  --color-orange-primary: darkorange;
+  --color-green-primary: mediumseagreen;
+}
+
+html{
+  font-size: 62.5%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* .App{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr 1fr 1fr));
+  justify-content: space-around;
+} */
+
+.App{
+  display: flex;
+  grid-template-columns:(auto-fit, minmax(500px));
+  justify-content: space-between;
+}
+
+.productList{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+/* .productCard{
+  position: relative;
+  background-color: var(--color-grey-primary);
+  margin: 1rem;
+  max-width: 30rem;
+  max-height: 50rem;
+  transition: 0.2s;
+} */
+
+.productCard{
+  position: relative;
+  flex-wrap: wrap;
+  background-color: var(--color-grey-primary);
+  margin: 3rem;
+  padding: 2rem;
+  width: 30rem;
+  height: 40rem;
+  transition: 0.2s;
+}
+
+
+.productCard:hover{
+  transform: translateY(-0.5rem);
+  box-shadow: 0.5rem 0.75rem 1.5rem #bbbbbb;
+}
+
+.productImage{
+  margin-top: 3rem;
+  padding: 1em;
+  width: 100%;
+  height: 15rem; /* Ajusta el valor de altura según tus necesidades */
+  object-fit: cover; /* Ajusta el ajuste del objeto según tus necesidades */
+}
+
+.productCard__cart{
+  position: absolute;
+  right: 0;
+  margin: 1rem;
+  font-size: 2.5rem;
+  color: orangered;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.productCard__wishlist{
+  position: absolute;
+  right: 3rem;
+  margin: 1rem;
+  font-size: 2rem;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.productCard__fastSelling {
+  position: absolute;
+  font-size: 2rem;
+  left: 0;
+  margin: 1rem;
+  fill: var(--color-orange-primary);
+}
+
+.productCard__content {
+  margin: 1rem;
+  text-align: left;
+  font-size: 15px;
+  color: black;
+}
+
+.productName{
+  font-size: 1.3rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.productDescription{
+  font-size: 1.2rem; /* Tamaño del texto */
+  font-weight: 100; /* Grosor del texto */
+  width: 240px; /* Ancho del contenedor */
+  height: 50px; /* Altura del contenedor */
+  overflow-y: scroll; /* Aplicar scroll solo en el eje vertical */
+  scrollbar-width: thin; /* Establecer el grosor de la barra de desplazamiento */
+  scrollbar-color: #333 #ffffff; /* Establecer el color de la barra de desplazamiento */
+}
+
+.displayStack__1,
+.displayStack__2{
+  margin: 1rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.productNroserie,
+.productPrice{
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.productTime{
+  font-size: 1rem;
+}

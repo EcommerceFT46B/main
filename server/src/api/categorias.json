@@ -1,0 +1,43 @@
+[
+    {
+      "id":"1",
+      "nombre": "Salas",
+      "descripcion": " Muebles para salas de estar",
+      "createdAt": "2024-03-19",
+      "estado":"true",
+      "updatedAt": "2024-03-19"
+    },
+    {
+      "id":"2",
+      "nombre": "Comedores",
+      "descripcion": " Muebles para comedores",
+      "estado":"true",
+      "createdAt": "2024-03-19",
+      "updatedAt": "2024-03-19"
+    },
+    {
+      "id":"3",
+      "nombre": "Dormitorios",
+      "descripcion": " Muebles para dormitorios",
+      "estado":"true",
+      "createdAt": "2024-03-19",
+      "updatedAt": "2024-03-19"
+    },
+    {
+      "id":"4",
+      "nombre": "Oficina",
+      "descripcion": " Muebles para oficina",
+      "estado":"true",
+      "createdAt": "2024-03-19",
+      "updatedAt": "2024-03-19"
+    },
+    {
+      "id":"5",
+      "nombre": "Cocina",
+      "descripcion": " Muebles para cocina",
+      "estado":"true",
+      "createdAt": "2024-03-19",
+      "updatedAt": "2024-03-19"
+    }
+  ]
+  

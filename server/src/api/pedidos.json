@@ -1,0 +1,103 @@
+[
+  {
+    "id": 1,
+    "idUsuario": 1,
+    "dirEnvio": "Calle 123",
+    "estado": "En proceso",
+    "total": 150.00,
+    "metodoPago": "Mercado Pago",
+    "createdAt": "2024-03-19",
+    "updatedAt": "2024-03-19"
+  },
+  {
+    "id": 2,
+    "idUsuario": 2,
+    "dirEnvio": "Avenida 456",
+    "estado": "Entregado",
+    "total": 200.00,
+    "metodoPago": "Mercado Pago",
+    "createdAt": "2024-03-19",
+    "updatedAt": "2024-03-19"
+  },
+  {
+    "id": 3,
+    "idUsuario": 3,
+    "dirEnvio": "Calle Principal",
+    "estado": "En camino",
+    "total": 180.00,
+    "metodoPago": "Mercado Pago",
+    "createdAt": "2024-03-19",
+    "updatedAt": "2024-03-19"
+  },
+  {
+    "id": 4,
+    "idUsuario": 1,
+    "dirEnvio": "Avenida Central",
+    "estado": "Entregado",
+    "total": 220.00,
+    "metodoPago": "Mercado Pago",
+    "createdAt": "2024-03-19",
+    "updatedAt": "2024-03-19"
+  },
+  {
+    "id": 5,
+    "idUsuario": 2,
+    "dirEnvio": "Calle Secundaria",
+    "estado": "En proceso",
+    "total": 130.00,
+    "metodoPago": "Mercado Pago",
+    "createdAt": "2024-03-19",
+    "updatedAt": "2024-03-19"
+  },
+  {
+    "id": 6,
+    "idUsuario": 3,
+    "dirEnvio": "Avenida Norte",
+    "estado": "Entregado",
+    "total": 300.00,
+    "metodoPago": "Mercado Pago",
+    "createdAt": "2024-03-19",
+    "updatedAt": "2024-03-19"
+  },
+  {
+    "id": 7,
+    "idUsuario": 1,
+    "dirEnvio": "Calle Sur",
+    "estado": "En proceso",
+    "total": 180.00,
+    "metodoPago": "Mercado Pago",
+    "createdAt": "2024-03-19",
+    "updatedAt": "2024-03-19"
+  },
+  {
+    "id": 8,
+    "idUsuario": 2,
+    "dirEnvio": "Avenida Este",
+    "estado": "En camino",
+    "total": 250.00,
+    "metodoPago": "Mercado Pago",
+    "createdAt": "2024-03-19",
+    "updatedAt": "2024-03-19"
+  },
+  {
+    "id": 9,
+    "idUsuario": 3,
+    "dirEnvio": "Calle Oeste",
+    "estado": "Entregado",
+    "total": 170.00,
+    "metodoPago": "Mercado Pago",
+    "createdAt": "2024-03-19",
+    "updatedAt": "2024-03-19"
+  },
+  {
+    "id": 10,
+    "idUsuario": 1,
+    "dirEnvio": "Avenida Sur",
+    "estado": "En proceso",
+    "total": 190.00,
+    "metodoPago": "Mercado Pago",
+    "createdAt": "2024-03-19",
+    "updatedAt": "2024-03-19"
+  }
+]
+  

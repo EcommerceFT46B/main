@@ -1,0 +1,67 @@
+.cards{
+  max-width: 120vw;
+  margin: auto;
+}
+
+.pagination, .content{
+  border-radius: 12px;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  border-radius: 12px;
+  margin-bottom: 30px;
+}
+
+.page {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.page.active {
+  flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  
+}
+
+.content{
+  background-color: #0f0f0f33;
+}
+
+.cards{
+  margin-top: 50px;
+}
+
+.page-button {
+  font-size: 18px;
+  padding: 5px 10px;
+  border-radius: 3px;
+  border: none;
+  width: 60px;
+  margin: 8PX;
+  margin-top: 18px;
+  margin-bottom: -36px;
+  background-color: teal;
+  color: white;
+  cursor: pointer;
+
+}
+
+.page-button:hover {
+  background-color: #D76A29;
+  color: black;
+}
+
+.page-button.active {
+  background-color: #204E4C;
+}
+
+div {
+  margin: 0;
+}

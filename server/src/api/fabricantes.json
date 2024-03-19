@@ -1,0 +1,43 @@
+[
+    {
+      "id":"1",
+      "nombre": "Muebles ACME",
+      "descripcion": " Fabricante reconocido de muebles para el hogar",
+      "estado":"true",
+      "createdAt": "2024-03-19",
+      "updatedAt": "2024-03-19"
+    },
+    { 
+      "id":"2",
+      "nombre": "Hierro & Madera",
+      "descripcion": " Fabricante especializado en muebles de diseño",
+      "estado":"true",
+      "createdAt": "2024-03-19",
+      "updatedAt": "2024-03-19"
+    },
+    {
+      "id":"3",
+      "nombre": "Confort & Descanso",
+      "descripcion": " Fabricante especializado en muebles para dormitorios",
+      "estado":"true",
+      "createdAt": "2024-03-19",
+      "updatedAt": "2024-03-19"
+    },
+    {
+      "id":"4",
+      "nombre": "Sillas & Sillones",
+      "descripcion": " Fabricante especializado en asientos",
+      "estado":"true",
+      "createdAt": "2024-03-19",
+      "updatedAt": "2024-03-19"
+    },
+    {
+      "id":"5",
+      "nombre": "Oficina Moderna",
+      "descripcion": " Fabricante especializado en mobiliario de oficina",
+      "estado":"true",
+      "createdAt": "2024-03-19",
+      "updatedAt": "2024-03-19"
+    }
+  ]
+  

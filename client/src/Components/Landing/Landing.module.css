@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+  font-family: "Urbanist", sans-serif;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 120vw;
+  min-height: auto;
+  border-radius: 5px;
+  padding: 5px;
+  z-index: 99;
+}
+
+.img {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  justify-content: center;
+  align-items: center;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 30%;
+  background-color: #D76A29;
+  border-radius: 12px 12px 0 0;
+  color: white;
+  padding: 25px;
+  text-align: center;
+}
+
+.button {
+  background: black;
+  padding: 8px 15px;
+  border: transparent;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+}
+
+.button:hover {
+  background: white;
+  color: black;
+}
+
+hr {
+  color: wheat;
+  font-size: 0.5;
+}
+
+.logo {
+  width: 50%;
+}
+
+.background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  z-index: -9; 
+}
+
+@media only screen and (max-width: 800px) {
+  .center {
+    width: 70vh; /* Cambiamos el ancho a 100% para dispositivos móviles */
+  }
+}
+
+.contenedor-botones {
+	width: 100%;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 40px;
+}
+
+.boton {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 80px;
+	background: #204E4C;
+	color: aliceblue;
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	font-weight: 500;
+	border: none;
+	cursor: pointer;
+	text-transform: uppercase;
+	transition: .3s ease all;
+	border-radius: 5px;
+	position: relative;
+	overflow: hidden;
+  z-index: 8;
+}
+
+.boton span {
+	position: relative;
+	z-index: 2;
+	transition: .3s ease all;
+}
+
+
+.boton.dos::after {
+  content: "";
+  width: 100%;
+  position: absolute;
+  z-index: -9;
+  top: 0;
+  left: calc(-100% - 80px);
+  border-bottom: 80px solid #000000;
+  border-right: 80px solid transparent;
+  transition: .4s ease-in-out all;
+}
+
+.boton.dos:hover::after {
+  left: 0;
+}

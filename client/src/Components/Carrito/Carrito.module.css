@@ -1,0 +1,27 @@
+.titulo{
+  text-align: center;
+}
+
+.table {
+  border-collapse: collapse;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.table th {
+  background-color: #ddd;
+  text-align: center;
+  font-weight: bold;
+}
+
+.table td {
+  border: 1px solid #ddd;
+  padding: 5px;
+}
+
+.borrar{
+  background-color: red;
+  border: none;
+  padding: 4px 7px;
+  border-radius: 5px;
+}

@@ -1,0 +1,31 @@
+
+.inputSearch {
+    width: 150px;
+    margin: 1.25% 0.2%;
+    padding: 5px;
+    float: left;
+  }
+  
+  .search {
+    max-width: 25px;
+    float: left;
+    margin: 1em;
+    color: whitesmoke;
+  }
+  
+  .search:hover {
+    cursor: pointer;
+    max-width: 30px;
+    color: yellow;
+  }
+  
+  .userIcon {
+    max-width: 30px;
+    float: right;
+    margin: 18px;
+  }
+  
+  .userIcon:hover {
+    cursor: pointer;
+  }
+  

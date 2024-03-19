@@ -1,0 +1,42 @@
+[
+    {
+      "id":"1",
+      "nombre": "Linea Class",
+      "descripcion": " Línea de muebles de alta gama",
+      "estado":"true",
+      "createdAt": "2024-03-19",
+      "updatedAt": "2024-03-19"
+    },
+    {
+      "id":"2",
+      "nombre": "Hogar Feliz",
+      "descripcion": " Línea de muebles confortables y funcionales",
+      "estado":"true",
+      "createdAt": "2024-03-19",
+      "updatedAt": "2024-03-19"
+    },
+    {
+      "id":"3",
+      "nombre": "Deco & Estilo",
+      "descripcion": " Línea de muebles de diseño moderno",
+      "estado":"true",
+      "createdAt": "2024-03-19",
+      "updatedAt": "2024-03-19"
+    },
+    {
+      "id":"4",
+      "nombre": "Ergonómica",
+      "descripcion": " Línea de muebles diseñados para la comodidad y el cuidado postural",
+      "estado":"true",
+      "createdAt": "2024-03-19",
+      "updatedAt": "2024-03-19"
+    },
+    {
+      "id":"5",
+      "nombre": "Ejecutiva",
+      "descripcion": " Línea de muebles de oficina de alta calidad",
+      "estado":"true",
+      "createdAt": "2024-03-19",
+      "updatedAt": "2024-03-19"
+    }
+  ]  
